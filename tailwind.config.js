@@ -50,6 +50,7 @@ module.exports = {
         white: "#fff",
         headingColor: "#339af0",
         skillsColor: "#69db7c",
+        PopColor: "#d8f5a2",
       },
       boxShadow: {
         "3xl": "0 4px 10px rgba(211, 220, 225, 0.7)",
