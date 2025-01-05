@@ -7,6 +7,8 @@ module.exports = {
         responsive1: { max: "960px" },
         responsive2: { max: "720px" },
         responsive3: { max: "362px" },
+        responsiveGrid: { max: "760px" },
+        responsiveGrid2: { max: "580px" },
       },
       gap: {
         flexGap: "2.5rem",
@@ -16,6 +18,10 @@ module.exports = {
         128: "70rem",
         rWidth: "20rem",
         linkWidth: "24px",
+        gridWidth: "15rem",
+      },
+      height: {
+        picHeight: "10rem",
       },
       spacing: {
         14: "3rem",
