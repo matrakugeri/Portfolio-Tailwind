@@ -9,7 +9,7 @@ module.exports = {
         responsive3: { max: "362px" },
         responsiveGrid: { max: "760px" },
         responsiveGrid2: { max: "580px" },
-        resposniveGrid3: { max: "400px" },
+        responsiveGrid3: { max: "400px" },
       },
       gap: {
         flexGap: "2.5rem",
