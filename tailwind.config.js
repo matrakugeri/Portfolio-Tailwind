@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        responsive1: { max: "960px" },
+        responsive1: { max: "1220px" },
         responsive2: { max: "720px" },
         responsive3: { max: "362px" },
         responsiveGrid: { max: "760px" },
@@ -21,7 +21,7 @@ module.exports = {
       },
 
       width: {
-        128: "70rem",
+        imgWidth: "70rem",
         rWidth: "20rem",
         linkWidth: "24px",
         gridWidth: "15rem",
@@ -43,6 +43,8 @@ module.exports = {
         lora: ["Lora", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
         geist: ["Geist Mono", "sans-serif"],
+        mozilla: ["Mozilla Headline", "sans-serif"],
+        raleway: ["Raleway", "sans-serif"],
       },
       transitionDuration: {
         400: "400ms",
@@ -66,6 +68,9 @@ module.exports = {
           "rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px",
         heavyShadow:
           "rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset",
+      },
+      dropShadow: {
+        "blue-glow": "2px 5px 5px rgba(0, 128, 255, 0.6)",
       },
     },
   },
