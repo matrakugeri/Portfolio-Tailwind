@@ -5,8 +5,9 @@ module.exports = {
     extend: {
       screens: {
         responsive1: { max: "1220px" },
-        responsive2: { max: "720px" },
-        responsive3: { max: "362px" },
+        responsive2: { max: "840px" },
+        responsive3: { max: "340px" },
+        responsiveIcons: { max: "450px" },
         responsiveGrid: { max: "760px" },
         responsiveGrid2: { max: "580px" },
         responsiveGrid3: { max: "400px" },
@@ -60,6 +61,8 @@ module.exports = {
         skillsColor: "#69db7c",
         PopColor: "#d8f5a2",
         cyanColor: "#228be6",
+        greenColor: "#000046",
+        lightgreenColor: "#1CB5E0",
       },
       boxShadow: {
         "3xl": "0 4px 10px rgba(211, 220, 225, 0.7)",

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -44,11 +44,15 @@
     />
     <link href="output.css" rel="stylesheet" />
   </head>
-  <body class="bg-[#112a46] min-h-screen font-roboto">
+  <body
+    class="bg-gradient-to-r from-[#113b83] to-[#06234e] min-h-screen font-roboto"
+  >
     <header
-      class="text-white flex justify-between items-center py-3 mb-10 mt-5 px-10"
+      class="text-white flex justify-between items-center py-3 mb-12 mt-5 px-14 responsiveIcons:px-5"
     >
-      <h2 class="text-2xl responsive3:text-xl font-raleway">Geraldo Matraku</h2>
+      <h2 class="text-2xl font-raleway responsive3:text-[20px]">
+        Geraldo Matraku
+      </h2>
       <nav class="responsive2:hidden">
         <ul class="flex gap-6">
           <li>
@@ -91,7 +95,7 @@
             ><i class="fa-brands fa-linkedin"></i
           ></a>
           <a
-            href="mailto:matrakugeri@gmail.com"
+            href="mailto:geraldomatraku05@gmail.com"
             class="transition-all flex items-center duration-400 rounded-md text-xl py-3 px-1.5 hover:bg-darkBlue"
             ><i class="fa-solid fa-envelope"></i
           ></a>
@@ -100,7 +104,7 @@
     </header>
     <section id="introduction" class="max-w-[1200px] mx-auto my-0">
       <div
-        class="mt-10 mb-10 mx-6 flex justify-center gap-6 text-white items-center responsive1:flex-col-reverse"
+        class="mt-10 mb-10 mx-6 flex justify-center gap-4 text-white items-center responsive1:flex-col-reverse"
       >
         <div>
           <h2 class="font-lora text-paragraphFont">Hi, I'm Geraldo,</h2>
@@ -115,6 +119,12 @@
             and Angular. I am also eager to learn new technologies and stay
             updated with industry trends.
           </p>
+          <div class="mt-4 flex gap-5">
+            <a href="#my-skills" class="btn font-mozilla"
+              ><ion-icon name="code-slash-outline"></ion-icon>Skills</a
+            >
+            <button class="btn font-mozilla">Projects</button>
+          </div>
         </div>
         <div>
           <img
@@ -135,11 +145,11 @@
         <p class="text text-white text-center text-lg font-space">
           As a frontend developer, I have expertise in HTML5, CSS3, and
           JavaScript (ES6+), with experience in building dynamic, responsive
-          user interfaces using Angular. I also have knowledge of backend
-          technologies like Node.js and C#, as well as experience with the .NET
-          framework, allowing me to work effectively in full-stack development
-          environments. My skill set enables me to create efficient, scalable,
-          and user-friendly web applications.
+          user interfaces using Angular (from older versions to the latest
+          ones). I also have knowledge of Node.js, allowing me to work
+          effectively in full-stack development environments. My skill set
+          enables me to create efficient, scalable, and user-friendly web
+          applications.
         </p>
       </div>
       <section
@@ -150,7 +160,7 @@
           class="grid grid-cols-4 gap-4 mt-5 responsiveGrid:grid-cols-3 responsiveGrid2:grid-cols-2 responsiveGrid3:grid-cols-1"
         >
           <div
-            class="p-4 bg-gray-800 rounded-lg shadow-lg flex justify-center items-center"
+            class="p-4 bg-white/15 backdrop-blur-md border border-white/30 rounded-lg shadow-lg flex justify-center items-center"
           >
             <div>
               <img
@@ -166,39 +176,7 @@
             </div>
           </div>
           <div
-            class="p-4 bg-gray-800 rounded-lg shadow-lg flex justify-center items-center"
-          >
-            <div>
-              <img
-                src="img/Html.png"
-                alt="Html-Logo"
-                class="w-gridWidth h-picHeight object-contain drop-shadow-[0_4px_12px_rgba(0,0,0,0.6)]"
-              />
-              <p
-                class="text-center text-xl text-white pt-1.5 font-inter font-light"
-              >
-                HTML5
-              </p>
-            </div>
-          </div>
-          <div
-            class="p-4 bg-gray-800 rounded-lg shadow-lg flex justify-center items-center"
-          >
-            <div>
-              <img
-                src="img/Css.png"
-                alt="Css-Logo"
-                class="w-gridWidth h-picHeight object-contain drop-shadow-[0_4px_12px_rgba(0,0,0,0.6)]"
-              />
-              <p
-                class="text-center text-xl text-white pt-1.5 font-inter font-light"
-              >
-                CSS3
-              </p>
-            </div>
-          </div>
-          <div
-            class="p-4 bg-gray-800 rounded-lg shadow-lg flex justify-center items-center"
+            class="p-4 bg-white/15 backdrop-blur-md border border-white/30 rounded-lg shadow-lg flex justify-center items-center"
           >
             <div>
               <img
@@ -214,7 +192,7 @@
             </div>
           </div>
           <div
-            class="p-4 bg-gray-800 rounded-lg shadow-lg flex justify-center items-center"
+            class="p-4 bg-white/15 backdrop-blur-md border border-white/30 rounded-lg shadow-lg flex justify-center items-center"
           >
             <div>
               <img
@@ -230,7 +208,7 @@
             </div>
           </div>
           <div
-            class="p-4 bg-gray-800 rounded-lg shadow-lg flex justify-center items-center"
+            class="p-4 bg-white/15 backdrop-blur-md border border-white/30 rounded-lg shadow-lg flex justify-center items-center"
           >
             <div>
               <img
@@ -246,7 +224,40 @@
             </div>
           </div>
           <div
-            class="p-4 bg-gray-800 rounded-lg shadow-lg flex justify-center items-center"
+            class="p-4 bg-white/15 backdrop-blur-md border border-white/30 rounded-lg shadow-lg flex justify-center items-center"
+          >
+            <div>
+              <img
+                src="img/Html.png"
+                alt="Html-Logo"
+                class="w-gridWidth h-picHeight object-contain drop-shadow-[0_4px_12px_rgba(0,0,0,0.6)]"
+              />
+              <p
+                class="text-center text-xl text-white pt-1.5 font-inter font-light"
+              >
+                HTML5
+              </p>
+            </div>
+          </div>
+          <div
+            class="p-4 bg-white/15 backdrop-blur-md border border-white/30 rounded-lg shadow-lg flex justify-center items-center"
+          >
+            <div>
+              <img
+                src="img/Css.png"
+                alt="Css-Logo"
+                class="w-gridWidth h-picHeight object-contain drop-shadow-[0_4px_12px_rgba(0,0,0,0.6)]"
+              />
+              <p
+                class="text-center text-xl text-white pt-1.5 font-inter font-light"
+              >
+                CSS3
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="p-4 bg-white/15 backdrop-blur-md border border-white/30 rounded-lg shadow-lg flex justify-center items-center"
           >
             <div>
               <img
@@ -262,13 +273,13 @@
             </div>
           </div>
           <div
-            class="p-4 bg-gray-800 rounded-lg shadow-lg flex justify-center items-center"
+            class="p-4 bg-white/15 backdrop-blur-md border border-white/30 rounded-lg shadow-lg flex justify-center items-center"
           >
             <div>
               <img
                 src="img/MongoDB.png"
                 alt="MongoDB"
-                class="w-gridWidth h-picHeight object-contain drop-shadow-[0_4px_12px_rgba(0,0,0,0.6)]"
+                class="w-gridWidth h-picHeight object-contain drop-shadow-[0 0 6px rgba(0, 0, 0, 0.5)]"
               />
               <p
                 class="text-center text-xl text-white pt-1.5 font-inter font-light"
@@ -280,7 +291,16 @@
         </div>
       </section>
     </section>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
 
 <!-- npx tailwindcss -i styles.css -o output.css --watch -->
+<!-- bg-[#112a46] -->

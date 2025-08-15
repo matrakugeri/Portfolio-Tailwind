@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn {
+  display: inline-block;
+  padding: 0.6rem 2rem;
+  border: 2px solid #4a76ee;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: color 0.4s ease;
+  letter-spacing: 1px;
+  z-index: 1;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #017fb1;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+  z-index: -1;
+}
+
+.btn:hover::after {
+  transform: scaleX(1);
+}
+
+.btn:hover {
+  color: #44f7df;
+  border-color: white;
+}
