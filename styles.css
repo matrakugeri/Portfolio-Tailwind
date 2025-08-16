@@ -2,25 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
-.btn {
-  display: inline-block;
+.anchor:link,
+.anchor:visited {
+  gap: 15px;
   padding: 0.6rem 2rem;
+  text-decoration: none;
   border: 2px solid #4a76ee;
   color: white;
-  font-weight: 600;
+  font-weight: 300;
   position: relative;
   border-radius: 5px;
   overflow: hidden;
   transition: color 0.4s ease;
-  letter-spacing: 1px;
+  font-size: 17px;
   z-index: 1;
 }
 
-.btn:focus {
+.anchor:focus {
   outline: none;
 }
 
-.btn::after {
+.anchor::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -31,11 +33,11 @@
   z-index: -1;
 }
 
-.btn:hover::after {
+.anchor:hover::after {
   transform: scaleX(1);
 }
 
-.btn:hover {
+.anchor:hover {
   color: #44f7df;
   border-color: white;
 }

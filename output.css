@@ -609,6 +609,11 @@ video {
   display: none;
 }
 
+.size-6 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
 .h-full {
   height: 100%;
 }
@@ -754,16 +759,16 @@ video {
   text-align: center;
 }
 
+.font-geist {
+  font-family: Geist Mono, sans-serif;
+}
+
 .font-inter {
   font-family: Inter, sans-serif;
 }
 
 .font-lora {
   font-family: Lora, sans-serif;
-}
-
-.font-mozilla {
-  font-family: Mozilla Headline, sans-serif;
 }
 
 .font-raleway {
@@ -861,25 +866,27 @@ video {
   transition-duration: 400ms;
 }
 
-.btn {
-  display: inline-block;
+.anchor:link,
+.anchor:visited {
+  gap: 15px;
   padding: 0.6rem 2rem;
+  text-decoration: none;
   border: 2px solid #4a76ee;
   color: white;
-  font-weight: 600;
+  font-weight: 300;
   position: relative;
   border-radius: 5px;
   overflow: hidden;
   transition: color 0.4s ease;
-  letter-spacing: 1px;
+  font-size: 17px;
   z-index: 1;
 }
 
-.btn:focus {
+.anchor:focus {
   outline: none;
 }
 
-.btn::after {
+.anchor::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -890,11 +897,11 @@ video {
   z-index: -1;
 }
 
-.btn:hover::after {
+.anchor:hover::after {
   transform: scaleX(1);
 }
 
-.btn:hover {
+.anchor:hover {
   color: #44f7df;
   border-color: white;
 }
@@ -952,5 +959,9 @@ video {
 @media (max-width: 400px) {
   .responsiveGrid3\:grid-cols-1 {
     grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+
+  .responsiveGrid3\:flex-col {
+    flex-direction: column;
   }
 }
