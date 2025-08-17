@@ -7,6 +7,7 @@ module.exports = {
         responsive1: { max: "1220px" },
         responsive2: { max: "840px" },
         responsive3: { max: "340px" },
+        responsiveTablet: { max: "1100px" },
         responsiveIcons: { max: "450px" },
         responsiveGrid: { max: "760px" },
         responsiveGrid2: { max: "580px" },
@@ -46,6 +47,7 @@ module.exports = {
         geist: ["Geist Mono", "sans-serif"],
         mozilla: ["Mozilla Headline", "sans-serif"],
         raleway: ["Raleway", "sans-serif"],
+        great: ["Great Vibes", "sans-serif"],
       },
       transitionDuration: {
         400: "400ms",

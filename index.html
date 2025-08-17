@@ -42,6 +42,12 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
     <link href="output.css" rel="stylesheet" />
   </head>
   <body
@@ -111,7 +117,7 @@
           <h3 class="text-headingFont text-headingColor font-space font-medium">
             Frontend Developer
           </h3>
-          <p class="text-white font-space text-xl">
+          <p class="text-white text-xl font-space">
             I am a dedicated and hardworking individual with a passion for
             technology and programming. Skilled in problem-solving and building
             efficient, scalable solutions, I enjoy creating dynamic and
@@ -140,7 +146,7 @@
           <img
             src="/img/logos/IMG_0009 (1).jpg"
             alt="My-Photo"
-            class="w-imgWidth min-w-imgWidth rounded-full shadow-heavyShadow h-full responsive1:w-rWidth"
+            class="w-imgWidth min-w-imgWidth rounded-full shadow-heavyShadow h-full max-w-imgWidth responsive1:w-rWidth"
           />
         </div>
       </div>
@@ -304,11 +310,13 @@
     <section id="projects" class="max-w-[1200px] mx-auto my-0 px-8">
       <div class="mb-20">
         <h2
-          class="font-extrabold text-skillsColor uppercase text-headingFont font-roboto mb-5"
+          class="font-extrabold text-skillsColor uppercase text-headingFont font-roboto mb-5 responsiveTablet:text-center"
         >
           Projects
         </h2>
-        <div class="flex gap-8 mb-10">
+        <div
+          class="flex gap-8 mb-10 responsiveTablet:flex-col responsiveTablet:text-center responsiveTablet:items-center"
+        >
           <div class="flex-1">
             <h3 class="font-medium text-white text-[22px] font-space">
               Flight Management System
@@ -332,16 +340,18 @@
               >Flight System - Github Repository
             </a>
           </div>
-          <div class="max-w-[750px]">
+          <div>
             <img
               src="img/projects/flights.png"
               alt="Flights"
-              class="rounded-lg shadow-heavyShadow"
+              class="rounded-lg shadow-heavyShadow max-w-[750px] w-full h-full max-h-full"
             />
           </div>
         </div>
 
-        <div class="flex gap-8">
+        <div
+          class="flex gap-8 mb-10 responsiveTablet:flex-col responsiveTablet:text-center responsiveTablet:items-center"
+        >
           <div class="flex-1">
             <h3 class="font-medium text-white text-[22px] font-space">
               Admin Dashboard
@@ -367,11 +377,122 @@
               >Admin Dashboard - Github Repository
             </a>
           </div>
-          <div class="max-w-[750px]">
+          <div>
             <img
               src="img/projects/Admin dashboard.png"
-              alt="Flights"
-              class="rounded-lg shadow-heavyShadow"
+              alt="Admin Dashboard"
+              class="rounded-lg shadow-heavyShadow max-w-[750px] w-full h-full max-h-full"
+            />
+          </div>
+        </div>
+
+        <div
+          class="flex gap-8 mb-10 responsiveTablet:flex-col responsiveTablet:text-center responsiveTablet:items-center"
+        >
+          <div class="flex-1">
+            <h3 class="font-medium text-white text-[22px] font-space">
+              Users Management System API
+            </h3>
+            <p class="font-normal font-space text-[17px] text-white">
+              This API allows CRUD operations on users, including getting users,
+              creating a user, updating a user by ID, and deleting a user by
+              ID.<br />
+              Technologies used:
+              <span class="text-skillsColor font-roboto font-extrabold"
+                ><u>Node.js</u></span
+              >
+            </p>
+            <a
+              href="https://github.com/matrakugeri/users-json-server"
+              class="repo-link"
+              target="_blank"
+              >Users System - Github Repository
+            </a>
+          </div>
+          <div>
+            <img
+              src="img/projects/users json server pic.png"
+              alt="Users JSON Server"
+              class="rounded-lg shadow-heavyShadow max-w-[750px] w-full h-full max-h-full"
+            />
+          </div>
+        </div>
+
+        <div
+          class="flex justify-center gap-8 mb-10 responsiveTablet:flex-col responsiveTablet:text-center responsiveTablet:items-center"
+        >
+          <div class="flex-1">
+            <h3 class="font-medium text-white text-[22px] font-space">
+              Pharmaceutical Store
+            </h3>
+            <p class="font-normal font-space text-[17px] text-white">
+              A multi-page responsive website for a pharmaceutical store,
+              featuring product presentation, company information, and customer
+              service pages.<br />
+              Technologies used:
+              <span class="text-skillsColor font-roboto font-extrabold"
+                ><u>HTML5</u></span
+              >
+              ,
+              <span class="text-skillsColor font-roboto font-extrabold"
+                ><u>CSS3</u></span
+              >
+              &
+              <span class="text-skillsColor font-roboto font-extrabold"
+                ><u>JavaScript</u></span
+              >
+            </p>
+            <a
+              href="https://github.com/matrakugeri/pharma"
+              class="repo-link"
+              target="_blank"
+              >Pharma - Github Repository
+            </a>
+          </div>
+          <div>
+            <img
+              src="img/projects/Pharma.png"
+              alt="Pharmaceutical Website"
+              class="rounded-lg shadow-heavyShadow max-w-[750px] w-full h-full max-h-full"
+            />
+          </div>
+        </div>
+        <div
+          class="flex justify-center gap-8 responsiveTablet:flex-col responsiveTablet:text-center responsiveTablet:items-center"
+        >
+          <div class="flex-1">
+            <h3 class="font-medium text-white text-[22px] font-space">
+              Summer Exploring
+            </h3>
+            <p class="font-normal font-space text-[17px] text-white">
+              A web project dedicated to discovering and showcasing beautiful
+              destinations.
+              <br />
+              Technologies used:
+              <span class="text-skillsColor font-roboto font-extrabold"
+                ><u>HTML5</u></span
+              >
+              ,
+              <span class="text-skillsColor font-roboto font-extrabold"
+                ><u>CSS3</u></span
+              >
+              &
+              <span class="text-skillsColor font-roboto font-extrabold"
+                ><u>JavaScript</u></span
+              >
+            </p>
+            <a
+              href="https://github.com/matrakugeri/summer-exploring"
+              class="repo-link"
+              target="_blank"
+              >Summer Exploring - Github Repository
+            </a>
+          </div>
+          <div>
+            <img
+              src="img/projects/summer exploring.png"
+              alt="Admin Dashboard"
+              class="rounded-lg shadow-heavyShadow max-w-[750px] w-full h-full max-h-full"
             />
           </div>
         </div>
