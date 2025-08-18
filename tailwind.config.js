@@ -9,9 +9,9 @@ module.exports = {
         responsive3: { max: "340px" },
         responsiveTablet: { max: "1100px" },
         responsiveIcons: { max: "450px" },
-        responsiveGrid: { max: "760px" },
-        responsiveGrid2: { max: "580px" },
-        responsiveGrid3: { max: "400px" },
+        responsiveGrid: { max: "980px" },
+        responsiveGrid2: { max: "680px" },
+        responsiveGrid3: { max: "430px" },
       },
       margin: {
         custom1: "2rem",
