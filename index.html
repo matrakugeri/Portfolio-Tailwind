@@ -66,12 +66,12 @@
     class="bg-gradient-to-r from-[#113b83] to-[#06234e] min-h-screen font-roboto"
   >
     <header
-      class="text-white flex justify-between items-center py-3 mb-12 mt-5 px-14 responsiveIcons:px-5"
+      class="text-white flex justify-between items-center py-3 mb-12 mt-5 px-14 mobileSm:px-5"
     >
-      <h2 class="text-2xl font-raleway responsive3:text-[20px]">
+      <h2 class="text-2xl font-raleway mobileXXs:text-[20px]">
         Geraldo Matraku
       </h2>
-      <nav class="responsive2:hidden">
+      <nav class="tabletSm:hidden">
         <ul class="flex gap-6">
           <li>
             <a
@@ -98,7 +98,7 @@
           </li>
         </ul>
       </nav>
-      <nav class="hidden responsive2:block">
+      <nav class="hidden tabletSm:block">
         <div class="flex justify-center items-center">
           <a
             href="https://github.com/matrakugeri"
@@ -122,11 +122,11 @@
     </header>
     <section id="introduction" class="max-w-[1200px] mx-auto my-0">
       <div
-        class="mt-10 mb-20 mx-6 flex justify-center gap-4 text-white items-center responsive1:flex-col-reverse"
+        class="mt-10 mb-20 mx-6 flex justify-center gap-4 text-white items-center desktop:flex-col-reverse"
       >
         <div>
           <h2 class="font-lora text-paragraphFont">Hi, I'm Geraldo,</h2>
-          <h3 class="text-headingFont text-headingColor font-space font-medium">
+          <h3 class="text-headingFont text-skyBlue font-space font-medium">
             Frontend Developer
           </h3>
           <p class="text-white text-xl font-space">
@@ -137,7 +137,7 @@
             and Angular. I am also eager to learn new technologies and stay
             updated with industry trends.
           </p>
-          <div class="mt-4 flex gap-5 responsiveGrid3:flex-col">
+          <div class="mt-4 flex gap-5 mobileLg:flex-col">
             <a
               href="#my-skills"
               class="anchor font-geist flex justify-center items-center"
@@ -152,13 +152,21 @@
               <i class="fa-solid fa-folder-open"></i>
               Projects
             </a>
+            <a
+              href="img/cv/Geraldo Matraku - Resume.pdf"
+              download
+              class="anchor font-geist flex justify-center items-center"
+            >
+              <i class="fa-solid fa-file"></i>
+              Download CV
+            </a>
           </div>
         </div>
         <div>
           <img
             src="/img/logos/IMG_0009 (1).jpg"
             alt="My-Photo"
-            class="w-imgWidth min-w-imgWidth rounded-full shadow-heavyShadow h-full max-w-imgWidth responsive1:w-rWidth"
+            class="w-imgWidth min-w-imgWidth rounded-full shadow-heavyShadow h-full max-w-imgWidth desktop:w-rWidth"
           />
         </div>
       </div>
@@ -166,7 +174,7 @@
     <section id="my-skills" class="max-w-[1200px] mx-auto my-0">
       <div class="px-6">
         <p
-          class="text-center text-skillsColor font-roboto font-extrabold text-headingFont"
+          class="text-center text-MintGreen font-roboto font-extrabold text-headingFont"
         >
           MY SKILLS
         </p>
@@ -185,7 +193,7 @@
         class="flex justify-center items-center mt-5 mb-20"
       >
         <div
-          class="grid grid-cols-4 gap-4 mt-5 responsiveGrid:grid-cols-3 responsiveGrid2:grid-cols-2 responsiveGrid3:grid-cols-1"
+          class="grid grid-cols-4 gap-4 mt-5 laptop:grid-cols-3 mobile:grid-cols-2 mobileXs:grid-cols-1"
         >
           <div
             class="p-4 bg-white/15 backdrop-blur-md border border-white/30 rounded-lg shadow-lg flex justify-center items-center"
@@ -322,12 +330,12 @@
     <section id="projects" class="max-w-[1200px] mx-auto my-0 px-8">
       <div class="mb-20">
         <h2
-          class="font-extrabold text-skillsColor uppercase text-headingFont font-roboto mb-5 responsiveTablet:text-center"
+          class="font-extrabold text-MintGreen uppercase text-headingFont font-roboto mb-5 tablet:text-center"
         >
           Projects
         </h2>
         <div
-          class="flex gap-8 mb-10 responsiveTablet:flex-col responsiveTablet:text-center responsiveTablet:items-center"
+          class="flex gap-8 mb-10 tablet:flex-col tablet:text-center tablet:items-center"
         >
           <div class="flex-1">
             <h3 class="font-medium text-white text-[22px] font-space">
@@ -337,11 +345,11 @@
               A web app for managing flights where admins can create, edit, and
               delete flights, with login and signup support for users.<br />
               Technologies used:
-              <span class="text-skillsColor font-roboto font-extrabold"
+              <span class="text-MintGreen font-roboto font-extrabold"
                 ><u>Angular</u></span
               >
               &
-              <span class="text-skillsColor font-roboto font-extrabold"
+              <span class="text-MintGreen font-roboto font-extrabold"
                 ><u>Node.js</u></span
               >
             </p>
@@ -362,7 +370,7 @@
         </div>
 
         <div
-          class="flex gap-8 mb-10 responsiveTablet:flex-col responsiveTablet:text-center responsiveTablet:items-center"
+          class="flex gap-8 mb-10 tablet:flex-col tablet:text-center tablet:items-center"
         >
           <div class="flex-1">
             <h3 class="font-medium text-white text-[22px] font-space">
@@ -374,11 +382,11 @@
               delete records. It also supports searching, filtering, and sorting
               with query-based functionality for efficient data management.<br />
               Technologies used:
-              <span class="text-skillsColor font-roboto font-extrabold"
+              <span class="text-MintGreen font-roboto font-extrabold"
                 ><u>Angular</u></span
               >
               &
-              <span class="text-skillsColor font-roboto font-extrabold"
+              <span class="text-MintGreen font-roboto font-extrabold"
                 ><u>Node.js</u></span
               >
             </p>
@@ -399,7 +407,7 @@
         </div>
 
         <div
-          class="flex gap-8 mb-10 responsiveTablet:flex-col responsiveTablet:text-center responsiveTablet:items-center"
+          class="flex gap-8 mb-10 tablet:flex-col tablet:text-center tablet:items-center"
         >
           <div class="flex-1">
             <h3 class="font-medium text-white text-[22px] font-space">
@@ -410,7 +418,7 @@
               creating a user, updating a user by ID, and deleting a user by
               ID.<br />
               Technologies used:
-              <span class="text-skillsColor font-roboto font-extrabold"
+              <span class="text-MintGreen font-roboto font-extrabold"
                 ><u>Node.js</u></span
               >
             </p>
@@ -431,7 +439,7 @@
         </div>
 
         <div
-          class="flex justify-center gap-8 mb-10 responsiveTablet:flex-col responsiveTablet:text-center responsiveTablet:items-center"
+          class="flex justify-center gap-8 mb-10 tablet:flex-col tablet:text-center tablet:items-center"
         >
           <div class="flex-1">
             <h3 class="font-medium text-white text-[22px] font-space">
@@ -442,15 +450,15 @@
               featuring product presentation, company information, and customer
               service pages.<br />
               Technologies used:
-              <span class="text-skillsColor font-roboto font-extrabold"
+              <span class="text-MintGreen font-roboto font-extrabold"
                 ><u>HTML5</u></span
               >
               ,
-              <span class="text-skillsColor font-roboto font-extrabold"
+              <span class="text-MintGreen font-roboto font-extrabold"
                 ><u>CSS3</u></span
               >
               &
-              <span class="text-skillsColor font-roboto font-extrabold"
+              <span class="text-MintGreen font-roboto font-extrabold"
                 ><u>JavaScript</u></span
               >
             </p>
@@ -470,7 +478,7 @@
           </div>
         </div>
         <div
-          class="flex justify-center gap-8 responsiveTablet:flex-col responsiveTablet:text-center responsiveTablet:items-center"
+          class="flex justify-center gap-8 tablet:flex-col tablet:text-center tablet:items-center"
         >
           <div class="flex-1">
             <h3 class="font-medium text-white text-[22px] font-space">
@@ -481,15 +489,15 @@
               destinations.
               <br />
               Technologies used:
-              <span class="text-skillsColor font-roboto font-extrabold"
+              <span class="text-MintGreen font-roboto font-extrabold"
                 ><u>HTML5</u></span
               >
               ,
-              <span class="text-skillsColor font-roboto font-extrabold"
+              <span class="text-MintGreen font-roboto font-extrabold"
                 ><u>CSS3</u></span
               >
               &
-              <span class="text-skillsColor font-roboto font-extrabold"
+              <span class="text-MintGreen font-roboto font-extrabold"
                 ><u>JavaScript</u></span
               >
             </p>

@@ -4,14 +4,15 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        responsive1: { max: "1220px" },
-        responsive2: { max: "840px" },
-        responsive3: { max: "340px" },
-        responsiveTablet: { max: "1100px" },
-        responsiveIcons: { max: "450px" },
-        responsiveGrid: { max: "980px" },
-        responsiveGrid2: { max: "680px" },
-        responsiveGrid3: { max: "430px" },
+        desktop: { max: "1220px" },
+        tablet: { max: "1100px" },
+        laptop: { max: "980px" },
+        tabletSm: { max: "840px" },
+        mobile: { max: "680px" },
+        mobileLg: { max: "640px" },
+        mobileSm: { max: "450px" },
+        mobileXs: { max: "430px" },
+        mobileXXs: { max: "340px" },
       },
       margin: {
         custom1: "2rem",
@@ -32,8 +33,8 @@ module.exports = {
         picHeight: "10rem",
       },
       spacing: {
-        14: "3rem",
-        "3xl": "30rem",
+        medium: "3rem",
+        xlarge: "30rem",
       },
       fontSize: {
         paragraphFont: "3rem",
@@ -58,9 +59,9 @@ module.exports = {
       colors: {
         brightBlue: "#081b29",
         darkBlue: "#017fb1",
+        MintGreen: "#69db7c",
+        skyBlue: "#339af0",
         white: "#fff",
-        headingColor: "#339af0",
-        skillsColor: "#69db7c",
         PopColor: "#d8f5a2",
         cyanColor: "#228be6",
         greenColor: "#000046",
